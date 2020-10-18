@@ -1,0 +1,10 @@
+<Ui xmlns='http://www.blizzard.com/wow/ui/'>
+	<Script file='elements.lua'/>
+	<Script file='statusbar.lua'/>
+	<Script file="unitinfo.lua"/>
+	<Script file="tags.lua"/>
+	
+	<Script file='health.lua'/>
+	<Script file='power.lua'/>
+	<Script file='text.lua'/>
+</Ui>
