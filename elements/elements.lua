@@ -1,5 +1,3 @@
 local _, ns = ...
 
-ns.elements = {
-    templates = {}
-}
+ns.elements = {}

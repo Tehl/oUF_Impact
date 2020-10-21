@@ -4,7 +4,7 @@ ns.stylesheet = {
     scale = GetScreenHeight() / 1440,
     generic = {
         padding = 5,
-        barBorder = 2,
+        barBorder = 1,
         fontName = "Fonts\\FRIZQT__.TTF",
         fontSize = 12,
         fontFlags = ""
@@ -12,14 +12,14 @@ ns.stylesheet = {
     health = {
         height = 15,
         text = {
-            fontSize = 13,
+            fontSize = 14,
             offsetX = 10,
             offsetY = -1
         }
     },
     power = {
         height = 10,
-        offset = 12,
+        offset = 13,
         inset = 15,
         text = {
             fontSize = 10,
@@ -96,5 +96,7 @@ ns.colors.power[1] = ns.colors.power.RAGE
 ns.colors.power[3] = ns.colors.power.ENERGY
 
 ns.assets = {
-    STATUSBAR = [=[Interface\AddOns\oUF_Impact\assets\textures\statusbar]=]
+    STATUSBAR      = [=[Interface\AddOns\oUF_Impact\assets\textures\statusbar]=],
+    STATUSBAR_BG   = [=[Interface\AddOns\oUF_Impact\assets\textures\statusbar_bg]=],
+    STATUSBAR_EDGE = [=[Interface\AddOns\oUF_Impact\assets\textures\statusbar_edge]=],
 }
